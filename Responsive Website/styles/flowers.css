@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("///Users/jolita/Desktop/HTML:CSS Fundamentals/Responsive/8. Responsive-and-Bootstrap-Homework/resources/Problem-02/background-flowers.jpg");
+  color: #000;
+  font-family: sans-serif;
+  background-repeat: repeat;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+header, aside, section, footer {
+  border: 2px solid #000;
+  background-color: rgba(253, 224, 226, 0.8);
+  padding: 10px;
+}
+
+section header {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#wrapper>header {
+  width: 740px;
+  margin: 0 auto;
+  padding: 10px;
+  flex: 1 100%;
+  -webkit-flex: 1 100%;
+  order: 1;
+  -webkit-order: 1;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header span {
+  float: right;
+  padding-left: 296px;
+}
+
+header img {
+  width: 180px;
+}
+
+header nav {
+    text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline-block;
+  width: 96px;
+  border: 1px solid #000;
+  background-color: #ea2a7b;
+  text-align: center;
+  padding: 10px;
+  margin: 0px 2px 0px 2px;
+}
+
+header ul li a {
+  color: white;
+}
+
+aside {
+  width: 100px;
+  margin-top: 10px;
+}
+
+section {
+  flex: 3 auto;
+  -webkit-flex: 3 auto;
+  order: 3;
+  -webkit-order: 3;
+  width: 55%;
+  margin: 10px 10px;
+}
+
+section div {
+  text-align: center;
+}
+
+.left {
+  flex: 1 auto;
+  -webkit-flex: 1 auto;
+  order: 2;
+  -webkit-order: 2;
+  width: 16%;
+}
+
+.right {
+  flex: 1 auto;
+  -webkit-flex: 1 auto;
+  order: 4;
+  -webkit-order: 4;
+  width: 16%;
+}
+
+section img {
+  display: inline-block;
+  width: 120px;
+}
+
+footer {
+  flex: 1 100%;
+  -webkit-flex: 1 100%;
+  order: 5;
+  -webkit-flex: order: 5;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+  #wrapper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  section {
+    flex: 1 100%;
+    order: 2;
+    margin: 20px 0 0 0;
+  }
+  section img {
+    width: 160px;
+  }
+  .left {
+    flex: 1 100%;
+    order: 3;
+    margin: 10px 0 0 0;
+  }
+  .right {
+    flex: 1 100%;
+    order: 4;
+    margin: 10px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 96%;
+  }
+  nav ul li {
+    dipslay: block;
+    width: 100%;
+  }
+}
