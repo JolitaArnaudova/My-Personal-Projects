@@ -1,0 +1,51 @@
+.col-md-3 {
+  text-align: right;
+}
+
+.row {
+  background-color: hotpink;
+  padding: 10px;
+}
+
+.col-sm-3 {
+  text-align: right;
+}
+
+a:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+a {
+  color: #fff;
+}
+
+#main {
+  background-color: #eee;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 10px;
+  padding: 50px;
+}
+
+
+#right {
+  background-color: hotpink;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 2%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+
+#secondary {
+  text-align: left;
+  padding: 10px;
+}
