@@ -1,0 +1,162 @@
+body {
+  font-family: Ubuntu, sans-serif;
+}
+
+#wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#containerheader {
+  width: 100%;
+  height: 500px;
+  background: -webkit-linear-gradient(45deg, rgba(143,191,255,1) 0%, rgba(143,191,255,1) 25%, rgba(0,128,128,1) 100%);
+}
+
+#nav1 ul {
+  list-style: none;
+  float: right;
+
+}
+
+#nav1 ul>li{
+  display:inline-block;
+  padding: 10px;
+  font-size: 13px;
+  color: white;
+}
+
+#logo {
+  font-size: 13px;
+  color: white;
+  padding:10px;
+  float: left;
+  margin-left: 300px;
+}
+
+#brand {
+  font-size: 60px;
+  color: #57f1ff;
+}
+
+header>ul {
+  list-style: none;
+  float:left;
+}
+ul li {
+  text-align: center;
+}
+
+h6 {
+  font-size: 16px;
+  margin-top:0;
+  color: #fff;
+}
+
+#slogan {
+  font-size: 60px;
+  color: #fff;
+}
+
+#button {
+  width: 200px;
+  padding: 10px;
+  margin-top: 40px;
+  font-size: 28px;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+#link {
+  color: #fff;
+  text-decoration-color: #fff;
+}
+
+#link:hover {
+  color: #57f1ff;
+}
+
+#nav1 ul>li:hover {
+  color: #57f1ff;
+}
+
+.main {
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#icons {
+  text-align: center;
+}
+
+#nav2 nav>ul {
+  list-style: none;
+  margin-left: 280px;
+
+}
+
+#nav2 nav ul>li {
+  width: 150px;
+  display: inline-block;
+  font-size: 13px;
+}
+span {
+  font-size: 16px;
+}
+
+#nav2 nav ul li>a {
+  text-decoration: none;
+  color: #000;
+}
+
+#footer1 {
+  background-color: #ff7978;
+  text-align: center;
+  padding: 30px;
+}
+
+#team {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#team>p {
+  width: 300px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 0;
+  font-size: 13px;
+}
+
+#clients {
+  float:left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#clients>p {
+  width: 300px;
+  float: right;
+  margin-top: 0;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+#comments {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+#footer2 {
+  text-align: center;
+  background-color: #282e3b;
+  padding: 30px;
+}
