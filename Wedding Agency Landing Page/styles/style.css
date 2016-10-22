@@ -1,0 +1,79 @@
+body {
+  background-color: #ad9acf;
+  font-family: Ubuntu, sans-serif;
+}
+.row{
+  text-align: center;
+  padding: 10px;
+  background-color: lavender;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+a:hover {
+  color:#f7dce6;
+}
+
+img {
+  width: 92.5%;
+  margin-left: 3.8%;
+
+}
+
+#banner {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  color: #f3e9ff;
+  font-size: 3em;
+}
+
+#icon {
+  font-size: 3em;
+  color: #dfada2;
+}
+
+h2 {
+  color: white;
+}
+
+#sizing-addon2 {
+  width:50%;
+}
+
+.btn-send {
+  background-color: #e6e6fb;
+  border: none;
+}
+
+.btn-send:hover {
+  background-color: #f7dce6;
+}
+
+footer {
+  border-top: 1px solid #f7dce6;
+  padding: 30px;
+  font-size: 1.3em;
+}
+
+#icon2 {
+  color: #dfada2;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+}
+
+p {
+  text-align: left;
+}
