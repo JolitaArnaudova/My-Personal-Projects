@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../Bootstrap/bootstrap-3.3.7/dist/css/bootstrap.css">
+</head>
+<body>
+    <h2>Book a Webinar</h2>
+
+    <div class="container">
+        <div class="col-xs-12 col-md-6">
+            <form id="webinar" method="post">
+                <div class="form-group">
+                    <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Address">
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                </div>
+                <div class="form-group">
+                    <label for="zipcode">ZIP Code</label>
+                        <input type="text" class="form-control" id="zipcode" placeholder="ZIP CODE">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Phone">
+                </div>
+                <div class="form-group">
+                    <label for="date">Webinar Date</label>
+                        <input type="text" class="form-control" id="date" placeholder="dd/mm/yyyy" required>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" id="invoiceChecked" value=""><span>I would like to recieve an invoice</span>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="invoice" placeholder="Your invoice information">
+                 </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="button" class="btn btn-default" id="clear">Clear</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

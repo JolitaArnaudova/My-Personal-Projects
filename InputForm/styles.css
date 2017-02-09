@@ -1,0 +1,12 @@
+body {
+    margin: 0 auto;
+}
+
+#invoice {
+    display: none;
+}
+
+
+h2 {
+    margin-left: 80px;
+}
