@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="034d9a26-3c2e-4735-8202-b052741e9e1c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Email Template/email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Email Template/images/welcome.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/circle-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/circle-area.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Responsive Website/index/02-Flowers-Home.html" afterPath="$PROJECT_DIR$/../Responsive Website/index/02-Flowers-Home.html" />
-    </list>
+    <list default="true" id="034d9a26-3c2e-4735-8202-b052741e9e1c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
