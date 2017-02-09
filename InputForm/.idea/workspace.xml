@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="034d9a26-3c2e-4735-8202-b052741e9e1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/InputForm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Email Template/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Email Template/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Email Template/email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Email Template/images/welcome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/circle-area.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JavaScriptBasics/Homework/Homework Introduction to JS/Circle Area/circle-area.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Responsive Website/index/02-Flowers-Home.html" afterPath="$PROJECT_DIR$/../Responsive Website/index/02-Flowers-Home.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -192,15 +187,15 @@
       <workItem from="1486325524781" duration="51000" />
       <workItem from="1486643928176" duration="3631000" />
       <workItem from="1486652472237" duration="280000" />
-      <workItem from="1486652821945" duration="115000" />
+      <workItem from="1486652821945" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8278000" />
+    <option name="totallyTimeSpent" value="8758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="713" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="713" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
